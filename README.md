@@ -120,7 +120,7 @@ cd /opt/armitage/release/unix
 
 ## 10. Troubleshooting:
 
-You may need to run commands from section 8 and 9 together, sometimes when i set the enviroment variable and then run ./armitage it throws an error that i didnt set the enviroment variable or tells me to restart postgresql so run the command below to start armitage.
+Sometimes, after setting the environment variable and attempting to run ```./armitage```, you may encounter an error indicating that the environment variable isn't set, or you might be prompted to restart PostgreSQL. This is a common issue that can occur during setup. To resolve it, you should run the following command to both set the ```MSF_DATABASE_CONFIG``` environment variable and start Armitage simultaneously:
 
 ```
 export MSF_DATABASE_CONFIG=/home/$USER/.msf4/database.yml && ./armitage
