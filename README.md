@@ -118,8 +118,6 @@ cd /opt/armitage/release/unix
 ./armitage
 ```
 
-## Happy Hunting!
-
 ## 10. Troubleshooting:
 
 You may need to run commands from section 8 and 9 together, sometimes when i set the enviroment variable and then run ./armitage it throws an error that i didnt set the enviroment variable or tells me to restart postgresql so run the command below to start armitage.
@@ -127,6 +125,7 @@ You may need to run commands from section 8 and 9 together, sometimes when i set
 ```
 export MSF_DATABASE_CONFIG=/home/$USER/.msf4/database.yml && ./armitage
 ```
+## HAPPY HUNTING!
 
 ## Sources:
 
