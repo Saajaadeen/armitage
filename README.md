@@ -120,6 +120,14 @@ cd /opt/armitage/release/unix
 
 ## Happy Hunting!
 
+## 10. Troubleshooting:
+
+You may need to run commands from section 8 and 9 together, sometimes when i set the enviroment variable and then run ./armitage it throws an error that i didnt set the enviroment variable or tells me to restart postgresql so run the command below to start armitage.
+
+```
+export MSF_DATABASE_CONFIG=/home/$USER/.msf4/database.yml && ./armitage
+```
+
 ## Sources:
 
 - Install JDK 11: https://ralph.blog.imixs.com/2024/01/24/install-open-jdk-11-on-debian-12-bookworm/
