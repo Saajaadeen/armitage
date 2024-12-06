@@ -48,7 +48,7 @@ sudo systemctl start postgresql
 
 ## 5. Install JDK 11
 
-Create a file called ```pin-stable-unstable.pref``` in /etc/apt/preferences.d/ and copy and past the following into the file:
+Create a file called ```pin-stable-unstable.pref``` in /etc/apt/preferences.d/ and copy and paste the following into the file:
 
 ```
 Package: *
@@ -78,7 +78,7 @@ Save and Exit.
 
 ```
 sudo apt update
-sudo apt install openjdk-11-jdk
+sudo apt install --no-install-recommends openjdk-11-jdk -y
 ``` 
 
 Only execute the next command if you have multiple java versions installed.
